@@ -1,0 +1,3 @@
+C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/CMakeFiles/BlinkTesting.elf.dir
+C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/CMakeFiles/rebuild_cache.dir

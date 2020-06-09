@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BlinkTesting"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BlinkTesting.elf">
+				<Option output="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/BlinkTesting.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F334x8"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Inc"/>
+					<Add directory="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Device/ST/STM32F3xx/Include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 BlinkTesting.elf"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BlinkTesting.elf/fast">
+				<Option output="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/BlinkTesting.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F334x8"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Inc"/>
+					<Add directory="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Device/ST/STM32F3xx/Include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 BlinkTesting.elf/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f334x8.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/arm_common_tables.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/arm_const_structs.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/arm_math.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/cmsis_armcc_V6.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/core_cmFunc.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/core_cmInstr.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/core_cmSimd.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/STM32F334R8TX_FLASH.ld">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Src/main.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Src/stm32f3xx_hal_msp.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Src/stm32f3xx_it.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Src/syscalls.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Src/sysmem.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Src/system_stm32f3xx.c">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/Startup/startup_stm32f334r8tx.s">
+			<Option target="BlinkTesting.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BlinkTesting/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
