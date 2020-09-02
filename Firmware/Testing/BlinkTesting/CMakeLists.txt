@@ -5,10 +5,10 @@ cmake_minimum_required(VERSION 3.7)
 
 # specify cross compilers and tools
 SET(CMAKE_C_COMPILER_WORKS 1)
-SET(CMAKE_C_COMPILER "C:/Program Files (x86)/GNU Tools Arm Embedded/9 2019-q4-major/bin/arm-none-eabi-gcc.exe")
+SET(CMAKE_C_COMPILER arm-none-eabi-gcc)
 SET(CMAKE_CXX_COMPILER_WORKS 1)
-SET(CMAKE_CXX_COMPILER "C:/Program Files (x86)/GNU Tools Arm Embedded/9 2019-q4-major/bin/arm-none-eabi-g++.exe")
-set(CMAKE_ASM_COMPILER  "C:/Program Files (x86)/GNU Tools Arm Embedded/9 2019-q4-major/bin/arm-none-eabi-gcc.exe")
+SET(CMAKE_CXX_COMPILER arm-none-eabi-g++)
+set(CMAKE_ASM_COMPILER  arm-none-eabi-gcc)
 set(CMAKE_AR arm-none-eabi-ar)
 set(CMAKE_OBJCOPY arm-none-eabi-objcopy)
 set(CMAKE_OBJDUMP arm-none-eabi-objdump)
@@ -39,7 +39,7 @@ add_definitions(-DUSE_HAL_DRIVER -DSTM32F334x8 -DDEBUG)
 
 file(GLOB_RECURSE SOURCES "Startup/*.*" "Src/*.*" "Drivers/*.*")
 
-include_directories(Inc Drivers/CMSIS/Include Drivers/STM32F3xx_HAL_Driver/Inc Drivers/STM32F3xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F3xx/Include)
+include_directories(Drivers/STM32F3xx_HAL_Driver/Inc/Legacy Inc Drivers/CMSIS/Include Drivers/STM32F3xx_HAL_Driver/Inc Drivers/CMSIS/Include Drivers/STM32F3xx_HAL_Driver/Inc/Legacy Drivers/STM32F3xx_HAL_Driver/Inc Drivers/CMSIS/Device/ST/STM32F3xx/Include Drivers/CMSIS/Device/ST/STM32F3xx/Include Inc)
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 

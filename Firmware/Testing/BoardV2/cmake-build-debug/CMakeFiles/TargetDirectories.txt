@@ -1,0 +1,3 @@
+C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BoardV2/cmake-build-debug/CMakeFiles/BoardV2.elf.dir
+C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BoardV2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ethan/Documents/GitHub/Nimbus/Firmware/Testing/BoardV2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

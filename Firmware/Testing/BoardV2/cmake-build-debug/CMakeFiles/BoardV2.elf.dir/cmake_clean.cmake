@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "BoardV2.elf"
+  "BoardV2.elf.manifest"
+  "BoardV2.elf.pdb"
+  "CMakeFiles/BoardV2.elf.dir/Core/Src/main.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/FATFS/App/fatfs.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/FATFS/Target/bsp_driver_sd.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/FATFS/Target/fatfs_platform.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/FATFS/Target/sd_diskio.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
+  "CMakeFiles/BoardV2.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/BoardV2.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

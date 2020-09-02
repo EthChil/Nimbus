@@ -18,10 +18,10 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
   "../Inc"
   "../Drivers/CMSIS/Include"
   "../Drivers/STM32F3xx_HAL_Driver/Inc"
-  "../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
   "../Drivers/CMSIS/Device/ST/STM32F3xx/Include"
   )
 set(CMAKE_DEPENDS_CHECK_C
@@ -59,10 +59,10 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
   "../Inc"
   "../Drivers/CMSIS/Include"
   "../Drivers/STM32F3xx_HAL_Driver/Inc"
-  "../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
   "../Drivers/CMSIS/Device/ST/STM32F3xx/Include"
   )
 
